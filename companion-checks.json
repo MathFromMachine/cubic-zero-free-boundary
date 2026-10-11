@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "checks_date_utc": "2026-10-11",
+  "checks": {
+    "baseline_sources_hash_matched": 2924,
+    "extension_sources_hash_matched": 248,
+    "reader_side_recipes_round_trip": 134,
+    "direct_extension_files_hash_matched": 114,
+    "topological_build_order": "passed",
+    "python_syntax": "passed",
+    "shell_syntax": "passed",
+    "html_local_links": "passed",
+    "private_path_and_account_name_scan": "passed",
+    "sealed_original_sources_modified": false,
+    "zip_crc_and_payload_consistency": "passed",
+    "release_source_classification": "114 directly supplied files, not a claim of 114 wholly original files; 134 reader-fetched Liu source adaptations"
+  },
+  "not_run": [
+    "new portable end-to-end Lean build",
+    "new portable Comparator replay",
+    "fresh network source acquisition",
+    "independent external peer review"
+  ],
+  "scope": "Lightweight companion validation against already checked source bytes; not a new proof verification."
+}

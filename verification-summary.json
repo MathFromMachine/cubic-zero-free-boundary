@@ -1,0 +1,46 @@
+{
+  "format": "neutral-verification-summary-v1",
+  "kind": "summary_of_existing_private_verification",
+  "fresh_portable_rebuild_performed": false,
+  "verification_date_utc": "2026-10-11T06:35:14.372897+00:00",
+  "theorem_module": "V4CandidateTheorem",
+  "analytic_build": {
+    "status": "success",
+    "v4_modules_built": 146
+  },
+  "comparator": {
+    "status": "success",
+    "statement_and_recursive_definition_comparison": true,
+    "fresh_lean_kernel_replay": true,
+    "permitted_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "independent_second_kernel": false
+  },
+  "closure": {
+    "status": "static_audit_pass",
+    "module_count": 13935,
+    "category_counts": {
+      "baseline:OAI": 2924,
+      "bootstrap:high-proof": 41,
+      "bootstrap:low-proof": 10,
+      "dependency": 8927,
+      "new:counts": 7,
+      "new:kappa": 43,
+      "new:kappa-optimization": 5,
+      "new:v4": 142,
+      "toolchain": 1836
+    },
+    "issues": [],
+    "before_after_hash_comparison": "passed"
+  },
+  "original_receipt_sha256": {
+    "v4/analytic-build-verification.json": "720766b4436f7f9fe96c0767aaeab75a346170a459022749e7ce63ec90cb85e8",
+    "v4-audit/replay-result.json": "0a3965212709a1767c7ac6074cabd20aa775932bddad29f19efcd4e6ba92f59e",
+    "v4-audit/source-object-freeze.json": "726210554bfbae372e8bafe3efd213e027dd3a98bf9ca87dea2c1601f87d5a2c",
+    "v4-audit/post-replay-source-closure.json": "5a5af3d056f666d5c8c5677ce2278d48b0d980527373efc0fdb481bd48e5ad93"
+  },
+  "caveat": "Private receipt hashes identify archived records; those records are withheld because they contain private filesystem paths. This summary is not an independent verifier attestation. Source hashes and scripts permit a new check."
+}
